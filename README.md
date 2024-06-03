@@ -24,3 +24,14 @@ The dataset contains the following columns:
 - **Sleep Disorder:** The presence or absence of a sleep disorder in the person (None, Insomnia, Sleep Apnea).
 
 ## Analysis Steps
+1. **Database setup:** get the data using Kaggle and import in MySQL database
+2. **Writing Queries:** write different queries to answer the necessary questions
+
+## Different Quereis to Answer
+1. which occupation have good sleep
+2. which profession have highest sleep disorder
+3. which Occupation have highest average physical activity level
+4. which age group have good sleep duration
+5. which age people have Insomnia, sleep apnea and no disorder
+6. which Age category have highest  stress level
+7. which age group have high blood pressure (more then 130/80)
