@@ -59,7 +59,7 @@ on t.Age = p.Age
 left join people_with_no_disorder n
 on t.Age = n.Age;	
 
--- which Age category have highest  strees level
+-- which Age category have highest  stress level
 select 
       sum(case when Age between  25 and  35 then 1 else 0 end) as '25 to 35',
       sum(case when Age between  35 and  45 then 1 else 0 end) as '35 to 45',
@@ -68,7 +68,7 @@ select
 from sleep_health_and_lifestyle_dataset 
 where `Stress Level`  between 6 and 18;
 
--- which age group have high bloood pressue (more then 130/80)
+-- which age group have high blood pressure (more then 130/80)
 select 
       sum(case when Age between  25 and  35 then 1 else 0 end) as '25 to 35',
       sum(case when Age between  35 and  45 then 1 else 0 end) as '35 to 45',
